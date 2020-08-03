@@ -1,0 +1,122 @@
+body {
+    background-color: #fff;
+}
+
+.w {
+    width: 990px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+header span {
+    margin-left: 10px;
+    display: flex;
+    width: 170px;
+    height: 40px;
+    align-items: flex-end;
+    font-size: 25px;
+}
+
+.tips-wrapper {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff8f0;
+}
+
+.banner-bg {
+    height: 475px;
+    background: url(https://img11.360buyimg.com/da/jfs/t1/134425/1/5450/76671/5f1f971bEb44b40cc/51bd1df1d40418ec.jpg) no-repeat;
+    background-color: #88a8be;
+    background-position: center center;
+}
+
+.banner {
+    height: 100%;
+}
+
+fieldset {
+    height: 400px;
+    background-color: #fff;
+    width: 346px;
+    border: 1px solid #000;
+    float: right;
+    margin-top: 10px;
+}
+
+form {
+    text-align: center;
+    padding: 0 20px;
+}
+
+form p {
+    height: 38px;
+    margin-top: 23px;
+    width: 304px;
+}
+
+fieldset>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    background-color: #fff8f0;
+}
+
+form p:nth-child(1) {
+    font-size: 18px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+form p:nth-child(1) a {
+    width: 173px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form p:nth-child(1) a:last-child {
+    color: red;
+}
+
+form p:nth-child(4) {
+    text-align: right;
+}
+
+form p:last-child {
+    margin-bottom: 20px;
+}
+
+form input {
+    padding-left: 10px;
+    height: 38px;
+    width: 304px;
+}
+
+form button {
+    width: 304px;
+    background-color: red;
+    color: #fff;
+    height: 35px;
+}
+
+footer {
+    height: 86px;
+    padding-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    line-height: 20px;
+}
+
+footer i {
+    margin: 0 10px;
+}

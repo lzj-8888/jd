@@ -1,0 +1,38 @@
+/* 顶部导航 */
+
+.icon-dizhi {
+    color: #e1251a;
+}
+
+.login {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #e5e4e0;
+}
+
+.login i {
+    color: #e1251a;
+}
+
+.login-c {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-l {
+    display: flex;
+    align-items: center;
+}
+
+.login-c a {
+    color: #9b999c;
+}
+
+.login-r {
+    width: 7.1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
